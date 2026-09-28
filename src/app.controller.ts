@@ -16,4 +16,8 @@ export class AppController {
   }
 
 
+  @Get('nom')
+  getnom(): string {
+    return this.appService.getHello();
+  }
 }
