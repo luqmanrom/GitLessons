@@ -19,5 +19,10 @@ export class AppController {
   @Get('nom')
   getnom(): string {
     return this.appService.getHello();
+  
+  @Get('pompompurin')
+  getpompompurin(): string {
+    return this.appService.getpompompurin();
+
   }
 }
